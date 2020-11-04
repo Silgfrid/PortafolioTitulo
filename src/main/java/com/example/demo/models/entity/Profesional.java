@@ -19,7 +19,7 @@ public class Profesional implements Serializable {
 
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="ID_PROFESIONAL")
 	private Long id_profesional;
 	
